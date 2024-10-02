@@ -1,0 +1,90 @@
+.purple {
+	background: #00BCD4;
+}
+/* #00BCD4; */
+.bg {
+	background: #CFD8DC;
+}
+
+.bg_img {
+	background-image: url('../images/notes1.jpg') !important;
+	background-size: 100% 100vh !important;
+	background-repeat: no-repeat !important;
+}
+
+/* Global Styles */
+/* ... */
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.hero::before {
+	content: '';
+	position: absolute;
+	top: 500;
+	left: 50;
+	width: 80%;
+	height: 60%;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	/* Black mask with 50% opacity */
+	z-index: 1;
+}
+
+.hero .container {
+	position: relative;
+	z-index: 2;
+}
+
+/* .hero img { */
+/* 	width: 120px; */
+/* 	height: 120px; */
+/* 	margin: 20px auto; */
+/* } */
+.features .card {
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.features .card img {
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+}
+
+.card-h {
+	height: 100%;
+}
+
+.card-hover {
+	transition: transform 0.3s, box-shadow 0.3s;
+	background-color: #f8f9fa;
+	border: none;
+}
+
+.card-hover:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	background-color: #e9ecef;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #f8f9fa; /* Light gray background color */
+	cursor: pointer;
+}
+
+.card-title {
+	color: #333; /* Dark gray title color */
+}
+
+.card-text {
+	color: #555; /* Medium gray text color */
+}
+
+/* ... */

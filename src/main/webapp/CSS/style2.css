@@ -1,0 +1,43 @@
+.purple {
+	background: #00BCD4;
+}
+
+.bg {
+	background: #CFD8DC;
+}
+
+.card-h {
+	height: 100%;
+	min-height: 300px;
+	transition: transform 0.3s ease;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-h:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #333; /* Dark gray title color */
+}
+
+.card-subtitle {
+	font-size: 1rem;
+	color: #6C757D;
+}
+
+.card-text {
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #555; /* Medium gray text color */
+}
+
+.card-buttons {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
